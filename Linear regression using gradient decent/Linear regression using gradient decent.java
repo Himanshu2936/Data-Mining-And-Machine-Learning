@@ -30,7 +30,7 @@ class LRWGD {
             for (int i = 0; i < str.length-1; i++) {
                 X[rowno][i+1]=Double.parseDouble(str[i]);
             }
-            Y[rowno][0]=Double.parseDouble(str[13]);
+            Y[rowno][0]=Double.parseDouble(str[str.length-1]);
             rowno++;
         }
         
